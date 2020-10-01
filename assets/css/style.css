@@ -5,13 +5,13 @@
     box-sizing: border-box;
 }
 
-/*Apply styles to <body>*/
+/*Body styles */
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
     }
 
-/*Apply styles to <header>*/
+/*Start Header styles */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -25,7 +25,7 @@ header h1 {
     display: inline;
 }
 
-/*Apply styles to header links*/
+    /*Apply styles to header links*/
 header a {
     text-decoration: none;
     color: #fce138; 
@@ -36,7 +36,7 @@ header nav {
     margin: 7px 0;
 }
 
-/*Overrides default style to make nav links inline*/
+    /*Overrides default style to make nav links inline*/
 header nav ul li {
     display: inline;
 }
@@ -46,7 +46,9 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+/*End Header styles */
 
+/*Start Footer styles */
 footer {
     background: #fce138;
     width: 100%;
@@ -73,8 +75,9 @@ footer a {
 section {
     padding: 60px;
 }
+/*End Footer styles */
 
-/*Hero style start */
+/*Start Hero styles */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -82,9 +85,8 @@ section {
     background-position: center;
     position: relative;
 }
-/*Hero style end */
 
-/*Form styke start */
+    /*Start Form styles */
 .hero-form {
     background-color: #fce138;
     padding: 20px;
@@ -118,36 +120,81 @@ section {
     margin-bottom: 15px;
     }
 
-    .hero-form label {
-        margin: 0 5px;
-    }
+.hero-form label {
+    margin: 0 5px;
+}
 
-    .hero-form button {
-        color: #fce138;
-        background-color: #024e76;
-        border: none;
-        padding: 10px 20px;
-        font-size: 16px;
-    }
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+    /*End Form styles */
+/*End Hero styles */
 
-    .intro {
-        text-align: center;
-    }
+/*Start General Section styles */
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    display: inline-block;
+}
 
-    .intro h2 {
-        font-size: 55px;
-        color: #024e76;
-        margin-bottom: 35px;
-        padding: 0 100px 20px 100px;
-        border-bottom: 3px solid #fce138;
-        display: inline-block;        
-    }
+.primary-border {
+    border-color: #fce138;
+}
 
-    .intro p {
-        line-height: 1.7;
-        color: #39a6b2;
-        width: 80%;
-        font-size: 20px;
-        margin: 0 auto;
-    }
+.secondary-border {
+    border-color: #39a6b2;
+}
 
+/*End General Section styles */
+
+/*Start what WE do styles */
+.intro {
+    text-align: center;
+}
+
+    
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+/*End what WE do styles */
+
+/*Start what YOU do styles */
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+.steps span {
+    font-size: 38px;
+}
