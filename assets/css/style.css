@@ -248,7 +248,7 @@ section {
 .text-right {
     text-align: right;
 }
-/*End Trainers styles*/
+/*End Trainers styles */
 
 /*Start Reach Out Styles*/
 .contact {
@@ -264,6 +264,8 @@ section {
 
 .contact-info h3 {
     color: #fce138;
+    font-size: 32px;
+    margin-bottom: 10px;
 }
 
 .contact-info iframe {
@@ -277,5 +279,18 @@ section {
     vertical-align: top;
     text-align: left;
     margin: 30px 0 0 60px;
-    color: white;    
 }
+
+.contact-info p, address {
+    color: white;
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.contact-info a {
+    color: #fce138
+}
+
+/*End Reach Out styles */
