@@ -17,3 +17,7 @@ https://craig5117.github.io/run-buddy/
 Made with ❤️ by Craig Bennett
 
 [Back to Top](#run-buddy)
+
+---
+
+### ©️2019 Run Buddy, Inc
