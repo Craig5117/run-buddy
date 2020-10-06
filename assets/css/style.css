@@ -158,10 +158,11 @@ footer a {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
-    display: inline-block;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -175,9 +176,6 @@ footer a {
 /*End General Section styles */
 
 /*Start what WE do styles */
-.intro {
-    text-align: center;
-}
 
     
 .intro p {
@@ -186,12 +184,12 @@ footer a {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 /*End what WE do styles */
 
 /*Start what YOU do styles */
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -222,7 +220,7 @@ footer a {
 
 /*Start trainers styles */
 .trainers {
-    text-align: center;
+    
 }
 
 .trainer {
@@ -268,12 +266,16 @@ footer a {
 .text-right {
     text-align: right;
 }
+
+.flex-row {
+    display: flex;
+}
 /*End Trainers styles */
 
 /*Start Reach Out Styles*/
 .contact {
     background: #024e76;
-    text-align: center;
+    
     display: flow-root;
 }
 
