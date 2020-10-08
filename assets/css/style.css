@@ -22,6 +22,13 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 header h1 {
@@ -29,6 +36,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 50%);
 }
 
     /*Apply styles to header links*/
@@ -54,6 +62,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 50%);
 }
 /*End Header styles */
 
@@ -88,7 +97,8 @@ footer a {
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -107,11 +117,12 @@ footer a {
     font-size: 55px;
     font-style: italic;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 50%);
 }
 
     /*Start Form styles */
 .hero-form {
-    background-color: #fce138;
+    background-color: rgba(252, 225, 56, 80%);
     padding: 20px;
     color: #024e76;
     border-width: 3px;
@@ -119,6 +130,9 @@ footer a {
     border-color: #024e76;
     width: 40%;
     margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 50%);
+    border-radius: 25px;
+    
 }
 
 .hero-form h3 {
@@ -139,6 +153,7 @@ footer a {
     font-size: 16px;
     color: #024e76;
     margin-bottom: 15px;
+    border-radius: 10px;
     }
 
 .hero-form label {
@@ -151,6 +166,7 @@ footer a {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+    border-radius: 10px;
 }
     /*End Form styles */
 /*End Hero styles */
@@ -408,6 +424,7 @@ footer a {
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
+    border-radius: 10px;
 }
 
 .contact-form button {
@@ -418,6 +435,7 @@ footer a {
     text-align: center;
     padding: 15px 0px;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 /*End Reach Out styles */
@@ -428,6 +446,7 @@ footer a {
     header {
         padding-bottom: 0;
         justify-content: center;
+        position: relative;
     }
 
     header h1 {
