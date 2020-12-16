@@ -1,5 +1,5 @@
 # run-buddy, Inc.
-
+Moving directory
 ## Purpose
 A website that offers fitness training services. 
 
